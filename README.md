@@ -13,21 +13,21 @@ Projeto pra resolução de exercícios propostos pelo curso programador objetivo
   O projeto foi desenvolvido em typescript, é necessário alguns requisitos para sua execução, pra isso você precisa ter instalado o <br>
     Node Js, após ter feito a instalação você pode obter uma cópia do projeto pelo comando:
 ```bash
- git@github.com:getwlad/javascript-exercises.git
+git@github.com:getwlad/javascript-exercises.git
 ```
 Rode o seguinte comando na raiz do projeto para instalar as dependências
 ```bash
-   npm install
+npm install
 ```
 
 Você pode rodar cada um dos exercícios por alguma extensão caso esteja utilizando o vs code, a extensão Code Runner pode rodar os scripts sem a necessidade de conversão .<br>
 Se não quiser usar nenhuma extensão, você pode converter todo o código pelo comando na raiz do projeto:. <br>
 ```bash
- tsc
+tsc
 ```
   Após a conversão serão gerados arquivos javascript, de mesmo nome, sendo assim possível executa-los com o comando: <br>
 ```bash
-    node nomeDoExercício.js
+node nomeDoExercício.js
 ```
 
 
