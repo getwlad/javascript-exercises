@@ -1,5 +1,6 @@
 export default interface iUser {
   id: number;
+
   city: string;
   name: string;
   age: number;
