@@ -1,5 +1,5 @@
 import iUser from "./iUser";
-const userrData = require("./users.json");
+const userData: iUser[] = require("./users.json");
 
 const findUserByPropValue = <P extends keyof iUser>(
   users: iUser[],
@@ -21,6 +21,7 @@ const findUserByPropValue = <P extends keyof iUser>(
 };
 
 // Sinceramente queria poder atribuir qualquer valor aqui, mas o typescript não permite em código uma propriedade que não existe no usuário
+// Recebendo de outro local adicionar um .toLowerCase()
 const prop = "id";
 
-console.log(findUserByPropValue(userrData, prop, 2));
+console.log(findUserByPropValue(userData, prop, 2));

@@ -13,6 +13,6 @@ export default interface iUser {
 }
 
 enum sexo {
-  m,
-  f,
+  m = "m",
+  f = "f",
 }
