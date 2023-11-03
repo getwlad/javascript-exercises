@@ -9,7 +9,7 @@
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)<br>
 Projeto pra resolução de exercícios propostos pelo curso programador objetivo  <br>
 
-## :hammer_and_wrench: Como rodar o projeto
+## :hammer_and_wrench: Instalação
   O projeto foi desenvolvido em typescript, é necessário alguns requisitos para sua execução, pra isso você precisa ter instalado o <br>
     Node Js, após ter feito a instalação você pode obter uma cópia do projeto pelo comando:
 ```bash
