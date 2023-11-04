@@ -1,7 +1,7 @@
 // 9. Retornar os usuários com altura abaixo da média;
 import iUser from "./iUser";
 const userData: iUser[] = require("./users.json");
-import { calculateAverageHeight } from "./8-CalculateAverageHeight";
+import { calculateAverageHeight } from "./8-calculateAverageHeight";
 
 const averageHeight = calculateAverageHeight(userData);
 
