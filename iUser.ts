@@ -6,10 +6,10 @@ export default interface iUser {
   age: number;
   weight: number;
   sex: sexo;
-  height: 1.7;
-  salary: 1000;
-  married: false;
-  active: true;
+  height: number;
+  salary: number;
+  married: boolean;
+  active: boolean;
 }
 
 enum sexo {

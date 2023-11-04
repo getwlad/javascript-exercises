@@ -16,7 +16,9 @@ const findUserFMaxSalary = (): iUser => {
   });
 
   if (!index) {
-    throw new Error("Nenhum usuário feminino foi encontrado");
+    throw new Error(
+      "Nenhum usuário feminino foi encontrado ou o salário é 0 ou não conseguiu ser obtido"
+    );
   }
   const userFWithMaxSalary: iUser = userData[index];
   return userFWithMaxSalary;
