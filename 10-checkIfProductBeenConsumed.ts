@@ -9,15 +9,15 @@ const checkProductConsumed = (
   productsData: iProduct[]
 ): string => {
   const products = productsData.filter((product: iProduct) => {
-    if (!product["category"].includes(category)) {
+    if (!(product["category"] === category)) {
       return;
     }
-    if (!product["name"].includes(productName)) {
+    if (!(product["name"] === productName)) {
       return;
     }
     return true;
   });
-  if (products.length >= 1) {
+  if (products.length > 1) {
     return `O produto foi consumido mais de uma vez, total: ${products.length} vezes`;
   }
   return "O produto não foi consumido mais de uma vez";
