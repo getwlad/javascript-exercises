@@ -3,6 +3,7 @@
 // Os users não contem estado e sim cidade
 import iUser from "./iUser";
 const userData: iUser[] = require("./users.json");
+
 const findUsersByCityAndHigherWeight = (
   city: string,
   weight: number
