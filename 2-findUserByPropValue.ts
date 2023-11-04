@@ -1,3 +1,5 @@
+// 2. Encontrar um usuário pelo valor de uma propriedade qualquer;
+// Dica: a assinatura do método é findUserByPropValue(users, prop, value)
 import iUser from "./iUser";
 const userData: iUser[] = require("./users.json");
 

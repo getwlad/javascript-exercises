@@ -1,3 +1,4 @@
+// 3. Encontrar a usuária do sexo feminino com o salário maior.
 import iUser from "./iUser";
 const userData: iUser[] = require("./users.json");
 
