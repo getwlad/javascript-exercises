@@ -2,7 +2,7 @@
 import iUser from "./iUser";
 const userData: iUser[] = require("./users.json");
 
-const calculateAverageHeight = (userrData: iUser[]): number => {
+export const calculateAverageHeight = (userrData: iUser[]): number => {
   let total = 0;
   userrData.map((user: iUser) => {
     total += user["height"];
